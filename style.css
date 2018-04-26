@@ -1,0 +1,15 @@
+body {
+	background: #FFE4B5;
+}
+
+.routesBox {
+	align-content: right; 
+}
+
+.titleBox {
+	align-content: left; 
+}
+
+.firstBackgroundImage {
+	background-image: BeachImageTwo.jpg;
+}
