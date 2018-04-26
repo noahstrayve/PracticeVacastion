@@ -8,26 +8,85 @@ body {
 
 .routesHolder {
 	float: left;
-	margin-right: 30px;
-	margin-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 100%;
+	padding-top: 12px;
+	padding-bottom: 8px;
 }
 
 .titleBox {
 	float: left;
 	margin-left: 30px;
+	margin-bottom: 60px;
+	padding-top: 3px;
 }
 
 .header {
 	height: 60px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	margin-bottom: 60px;
+	background: #FFE4B5;
+	z-index: 999;
+}
+
+.header .routesHolder:hover {
+	background: #87CEEB;
+	color: white;
 }
 
 #firstImage {
-	float: left;
+	background-image: url('ScenicBeach.png');
+	background-repeat: no-repeat;
 	width: 100%;
-	height: 640px;
-	position: relative;
+	background-size: 100% 620px;
+	margin-top: 60px;
+	position: static;
+	height: 700px;
 }
 
 .firstImageTextBox {
 	position: relative;
+	padding-top: 140px;
+	color: white;
+	z-index: 0;
+}
+
+.firstImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+	z-index: 0;
+}
+
+.firstImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
+	z-index: 0;
+}
+
+#secondImage {
+	background-image: url('BeachImage.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: 100% 620px;
+	height: 620px;
+	position: static;
+}
+
+.secondImageTextBox {
+	position: relative;
+	padding-top: 140px;
+	color: white;
+}
+
+.secondImageTopText {
+	padding-left: 40px;
+	padding-top: 80px;
+}
+
+.secondImageBottomText {
+	padding-left: 220px;
+	padding-top: 65px;
 }
