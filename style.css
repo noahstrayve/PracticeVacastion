@@ -1,5 +1,5 @@
 body {
-	background: #FFE4B5;
+	background: #FAF0E6;
 }
 
 .routesBox {
@@ -89,4 +89,22 @@ body {
 .secondImageBottomText {
 	padding-left: 220px;
 	padding-top: 65px;
+}
+
+#firstBlurbBox {
+	height: 300px;
+}
+
+.firstBlurbOne {
+	width: 50%;
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.firstBlurbTwo {
+	width: 50%;
+	float: right;
+	padding-left: 40px;
+	padding-right: 40px;
 }
